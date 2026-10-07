@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Point SptGameDir at your SPT 4.1.6 install (or pass -p:SptGameDir=...). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>TrueHardcoreRules</AssemblyName>
+    <RootNamespace>TrueHardcoreRules</RootNamespace>
+    <Version>1.0.0</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <SptGameDir Condition="'$(SptGameDir)' == ''">E:\Games\Escape From Tarkov - 4.1.6</SptGameDir>
+    <SptRuntimeDir>$(SptGameDir)\SPT_Runtime</SptRuntimeDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests\**" />
+    <None Include="config.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="$(SptRuntimeDir)\SPTarkov.Common.dll" Private="false" />
+    <Reference Include="$(SptRuntimeDir)\SPTarkov.DI.dll" Private="false" />
+    <Reference Include="$(SptRuntimeDir)\SPTarkov.Server.Core.dll" Private="false" />
+    <Reference Include="$(SptRuntimeDir)\SemanticVersioning.dll" Private="false" />
+  </ItemGroup>
+
+  <!-- Copies the DLL + config.json into SPT_Runtime\user\mods\TrueHardcoreRules. Only with -p:CopyToGame=true. -->
+  <Target Name="CopyToGame" AfterTargets="Build" Condition="'$(CopyToGame)' == 'true'">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SptRuntimeDir)\user\mods\TrueHardcoreRules" />
+    <Copy SourceFiles="config.json" DestinationFolder="$(SptRuntimeDir)\user\mods\TrueHardcoreRules" Condition="!Exists('$(SptRuntimeDir)\user\mods\TrueHardcoreRules\config.json')" />
+  </Target>
+</Project>

@@ -1,0 +1,13 @@
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.csproj.AssemblyReference.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.AssemblyInfoInputs.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.AssemblyInfo.cs
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.csproj.CoreCompileInputs.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\bin\Release\net10.0\config.json
+D:\_Projects\SPT Mods\TrueHardcoreRules\bin\Release\net10.0\TrueHardcoreRules.deps.json
+D:\_Projects\SPT Mods\TrueHardcoreRules\bin\Release\net10.0\TrueHardcoreRules.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\bin\Release\net10.0\TrueHardcoreRules.pdb
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\refint\TrueHardcoreRules.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\TrueHardcoreRules.pdb
+D:\_Projects\SPT Mods\TrueHardcoreRules\obj\Release\net10.0\ref\TrueHardcoreRules.dll

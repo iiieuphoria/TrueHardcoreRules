@@ -1,0 +1,14 @@
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\bin\Debug\net10.0\RuleMathCheck.exe
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\bin\Debug\net10.0\RuleMathCheck.deps.json
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\bin\Debug\net10.0\RuleMathCheck.runtimeconfig.json
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\bin\Debug\net10.0\RuleMathCheck.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\bin\Debug\net10.0\RuleMathCheck.pdb
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.AssemblyInfoInputs.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.AssemblyInfo.cs
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.csproj.CoreCompileInputs.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\refint\RuleMathCheck.dll
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.pdb
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\RuleMathCheck.genruntimeconfig.cache
+D:\_Projects\SPT Mods\TrueHardcoreRules\tests\RuleMathCheck\obj\Debug\net10.0\ref\RuleMathCheck.dll

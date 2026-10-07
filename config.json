@@ -1,0 +1,61 @@
+// True Hardcore Rules - SPT 4.1.6
+// Ruleset: Hardcore Classic (stash upgrades via hideout left vanilla).
+// Comments and trailing commas are allowed. Restart the server after editing.
+// Any key you delete falls back to its Hardcore Classic value.
+{
+  "enabled": true,
+
+  // Log a warning when another mod that edits the same systems is installed (HardcoreRules, SVM, fleasimulator, ...).
+  "warnOnConflicts": true,
+
+  "flea": {
+    "enabled": false,         // false = flea never unlocks
+    "unlockLevel": 15         // only used when enabled is true
+  },
+
+  "insurance": {
+    "enabled": false          // false = no trader offers insurance
+  },
+
+  "scavRaids": {
+    "enabled": true,
+    "cooldownSeconds": 2700   // vanilla 1500. Fence rep and hideout bonuses still reduce it.
+  },
+
+  "traders": {
+    "enabled": true,
+    "cashPriceMultiplier": 1.5,    // rouble/dollar/euro prices only; barters untouched
+    "stockMultiplier": 0.5,        // stock per restock and per-player buy limits (minimum 1)
+    "restockTimeMultiplier": 2.0,  // time between trader restocks
+    "excludedTraderIds": []        // trader ids to leave alone, e.g. "54cb50c76803fa8b248b4571" (Prapor)
+  },
+
+  "fence": {
+    "enabled": true,
+    "payoutMultiplier": 0.5,  // Fence pays half what he normally does for your items
+    // Item categories Fence won't sell. Names from SPT BaseClasses or 24-char template ids.
+    "blockedCategories": [ "WEAPON", "ARMORED_EQUIPMENT", "VEST", "BACKPACK", "AMMO", "AMMO_BOX" ]
+  },
+
+  "secureContainer": {
+    "enabled": true,
+    "width": 2,               // containers already smaller than this keep their size
+    "height": 2,
+    "allowedCategories": [ "KEY", "INFO", "MEDS", "AMMO" ],
+    // Developer and Boss containers. All bots use the Boss container, so leave it here to keep bot loadouts vanilla.
+    "excludedContainerIds": [ "5c0a5a5986f77476aa30ae64", "5c0a794586f77461c458f892" ]
+  },
+
+  "healing": {
+    "therapistPostRaidHealing": false   // false = no post-raid treatment screen; heal with your own meds
+  },
+
+  "repairs": {
+    "traderRepairs": false    // false = repair kits only
+  },
+
+  "startingGifts": {
+    "enabled": false,         // false = no free Prapor/Mechanic gifts for new profiles
+    "giftIds": [ "PraporGiftDay1", "PraporGiftDay2", "MechanicGiftDay1" ]
+  }
+}
